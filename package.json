@@ -1,0 +1,30 @@
+{
+  "name": "@vidaxl/couchbase-lib",
+  "version": "1.0.4",
+  "description": "Vidaxl couchbase lib.",
+  "main": "src/index",
+  "scripts": {
+    "init": "node initBucket.js",
+    "test": "node testsRunner.js"
+  },
+  "author": {
+    "name": "vidaXL",
+    "url": "https://vidaxl.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "couchbase": "^2.6.3",
+    "lodash": "^4.17.11",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "mocha-junit-reporter": "^1.18.0",
+    "mocha-multi-reporters": "^1.1.7",
+    "mochawesome": "^3.1.1",
+    "npm-audit-resolver": "^1.4.0",
+    "nyc": "^13.3.0",
+    "q": "^1.4.1"
+  }
+}

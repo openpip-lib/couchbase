@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.05700000000000001" tests="7" failures="0">
+  <testsuite name="Root Suite" timestamp="2019-07-30T09:40:23" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Couchbase module test" timestamp="2019-07-30T09:40:23" tests="7" file="/work/project/couchbase-lib/tests/couchdb-test.js" failures="0" time="0.05700000000000001">
+    <testcase name="Couchbase module test couchdb insert action test" time="0.008" classname="couchdb insert action test">
+    </testcase>
+    <testcase name="Couchbase module test couchdb upsert action test" time="0.001" classname="couchdb upsert action test">
+    </testcase>
+    <testcase name="Couchbase module test couchdb partial update action test" time="0.002" classname="couchdb partial update action test">
+    </testcase>
+    <testcase name="Couchbase module test couchdb get action test" time="0.001" classname="couchdb get action test">
+    </testcase>
+    <testcase name="Couchbase module test couchdb sql query test" time="0.025" classname="couchdb sql query test">
+    </testcase>
+    <testcase name="Couchbase module test couchdb filter query test" time="0.019" classname="couchdb filter query test">
+    </testcase>
+    <testcase name="Couchbase module test couchdb delete action test" time="0.001" classname="couchdb delete action test">
+    </testcase>
+  </testsuite>
+</testsuites>

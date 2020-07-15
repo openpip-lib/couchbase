@@ -1,0 +1,9 @@
+{
+  "reporterEnabled": "mochawesome, mocha-junit-reporter",
+  "mochaJunitReporterReporterOptions": {
+    "mochaFile": "tests/results/api-junit-test.xml"
+  },
+  "mochawesomeReporterOptions": {
+    "reportDir": "tests/results/unit"
+  }
+}
